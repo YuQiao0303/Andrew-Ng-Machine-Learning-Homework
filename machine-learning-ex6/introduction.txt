@@ -1,0 +1,14 @@
+
+
+ex6.m:
+1. ex6.m: modify C to see the difference ( in a linear classification)
+2. gaussianKernel.m: calculate Gaussian kernel
+3. dataset3Param.m: use a cross validation set to determne C and sigma
+
+ex6_spam.m
+*. preprocess the emails: replace numbers, $, email, url into fixed string
+*. preprocee the emails: vocabulary list: contains all words which occur at least 100 times in the spam
+1. processEmail.m: map the preprocessed sample email into a list of indices
+	tip: strcmp(str1, str2); vocabList{i}; length(vocabList);
+2. emailFeatures.m: generate a feature vector
+3. optional: use given emails to test your model

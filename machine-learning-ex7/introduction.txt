@@ -1,0 +1,9 @@
+K-means
+1. findClosestCentroids.m
+2. computeCentroids.m
+3. kMeansInitCentroids.m
+
+PCA
+1. pca.m
+2. projectData.m.
+3. recoverData.m

@@ -1,0 +1,12 @@
+dataset: 1 dimentional X, 1 dimetional Y,
+
+1. linearRegCostFunction.m: linear regression ( cost function) with regularization
+2. earningCurve.m: learning curve (tells us it has high bias)
+3. polyFeature.m: polynomial regression ( generate polynomial features by x)
+4. ex5.m: modify lambda. learning curve and the visualized data tell us different lambda causes different results)
+5. validationCurve.m: automatically choose lambda
+6. (optional) calculate test error: i do it in ex5.m
+
+note:
+1.  know what parameter you are using, X? X_poly? are ones added?
+2. know whether you're training or calculating error ( whether to use lambda)
